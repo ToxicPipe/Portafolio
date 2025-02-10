@@ -1,33 +1,10 @@
-export const navLinks = [
-  { title: "Inicio", href: "#Home" },
-  { title: "Portafolio", href: "#Portfolio" },
-  { title: "Sobre mi", href: "#About" },
-  { title: "Contacto", href: "#Contact" },
+const links = [
+  { href: "#", icon: "fa-solid fa-envelope", tooltip: "Copiar correo", email: "ingeniero.softwarefg@gmail.com" },
+  { href: "https://wa.me/573143634742", icon: "fa-brands fa-whatsapp", tooltip: "WhatsApp" },
+  { href: "https://www.linkedin.com/in/felipe-gonzalez07/", icon: "fa-brands fa-linkedin", tooltip: "LinkedIn" },
+  { href: "https://github.com/ToxicPipe/ToxicPipe", icon: "fa-brands fa-github", tooltip: "GitHub" },
+  { href: "https://www.instagram.com/toxic_pipe", icon: "fa-brands fa-instagram", tooltip: "Instagram" },
+  { href: "https://x.com/ToxicPipex07", icon: "fa-brands fa-x-twitter", tooltip: "Twitter" },
 ];
 
-export const projectLinks = [
-  {
-    title: "Fuheco",
-    description: "Prueba 1dadasd",
-    href: "#",
-    src: "/src/assets/Imgs/Desarrollador.webp",
-  },
-  {
-    title: "Fuheco2",
-    description: "Prueba 2asdasdasd",
-    href: "#",
-    src: "/src/assets/Imgs/Desarrollador.webp",
-  },
-  {
-    title: "Prueba",
-    description: "Prueba 3aaaaaa",
-    href: "#",
-    src: "/src/assets/Imgs/Desarrollador.webp",
-  },
-  {
-    title: "Pruebassss",
-    description: "Prueba 3aaaaaasdasdasdasdasdasda",
-    href: "#",
-    src: "/src/assets/Imgs/Desarrollador.webp",
-  },
-];
+export default links;

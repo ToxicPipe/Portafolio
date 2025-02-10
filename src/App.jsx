@@ -1,16 +1,12 @@
 import NavBar from "./components/NavBar";
-import Home from "./components/sections/Home";
-import Portfolio from "./components/sections/Portfolio";
-import About from "./components/sections/About";
+import Portfolio from "./components/Portfolio";
 
 const App = () => {
   return (
-    <div className="flex flex-col h-screen">
-      <NavBar />
-      <Home />
-      <Portfolio />
-      <About />
-    </div>
+    <>
+      <NavBar></NavBar>
+      <Portfolio></Portfolio>
+    </>
   );
 };
 
