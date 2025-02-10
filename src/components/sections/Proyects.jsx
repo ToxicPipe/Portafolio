@@ -8,7 +8,7 @@ const Proyects = () => {
       <div className="flex flex-col gap-10">
         <div className="bg-white rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 grid md:grid-cols-2 gap-5 group">
           <div className="w-full bg-slate-200 dark:bg-gray-700/60 rounded-lg overflow-hidden">
-            <img className="rounded-lg transition-all duration-500 transform translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7 w-full" src="src/assets/Imgs/Fuhecoweb.png" alt="" />
+            <img className="rounded-lg transition-all duration-500 transform translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7 w-full" src="src/assets/Imgs/Fuhecoweb.webp" alt="" />
           </div>
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pagina web Fuheco</h5>

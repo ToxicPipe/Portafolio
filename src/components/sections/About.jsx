@@ -52,7 +52,7 @@ const About = () => {
             );
           })}
         </ul>
-        <a href="https://drive.google.com/file/d/1soufJkoR83cICWjLOM6iyW6uvw3zJZcO/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="bg-slate-700 text-white p-2 rounded-md font-semibold hover:bg-slate-800 dark:hover:bg-slate-900 transition-colors duration-300 w-full md:w-auto">
+        <a href="https://drive.google.com/file/d/1soufJkoR83cICWjLOM6iyW6uvw3zJZcO/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="bg-slate-700 text-white p-2 rounded-md font-semibold hover:bg-slate-800 dark:hover:bg-slate-900 transition-colors duration-300 w-full md:w-auto text-center">
           Descargar CV
         </a>
       </div>
